@@ -27,7 +27,7 @@ From this we infer that Red Dot appears to move randomly every hour approximatel
 
 Below is an animation of Red Dot for the entire historical period (30 days)
 
-![](https://github.com/MarcelaCespedes/Digital_twin_Explore1/RedDot_historial.gif)
+![](https://github.com/MarcelaCespedes/Digital_twin_Explore1/blob/master/RedDot_historial.gif)
 
 
 <br>
