@@ -147,7 +147,7 @@ plot.Red.Dot<- ggplot(data, aes(x=x, y=y)) +
   exit_shrink() +
   ease_aes('sine-in-out') +
   #labs(title = "Day: {frame_time}" ) 
-  ggtitle("Movement: {next_state} out of 720")
+  ggtitle("Movement: {next_state} out of 720 = 30 days of movement")
 
 # this takes ~9 seconds to render
 
