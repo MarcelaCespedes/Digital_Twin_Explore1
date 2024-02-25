@@ -152,7 +152,7 @@ plot.Red.Dot<- ggplot(data, aes(x=x, y=y)) +
 # this takes ~9 seconds to render
 
 # reduced frames per second (fps) down to 5 to make this move slower and easier to see
-animate(plot.Red.Dot, duration = 12, fps = 5, width = 200, height = 200, renderer = gifski_renderer())
+animate(plot.Red.Dot, duration = 12, fps = 5, width = 220, height = 200, renderer = gifski_renderer())
 
 anim_save(filename = file.path("RedDot_historial.gif"),
           animation = plot.Red.Dot)
