@@ -79,6 +79,7 @@ p.coords<- ggplot(orig.data.long, aes(x = time.point,
   geom_vline(xintercept = days.vec,
              alpha = 0.5,
              colour = "gray") +
+  scale_colour_manual(values = c("orange","forestgreen")) +
   ggtitle("Historical coordinates of Red Dot over 30 days") +
   facet_wrap(.~ axis) +
   theme(legend.position = "none",
@@ -97,7 +98,7 @@ x11()
 p.coords
 
 # It's clear that there are clusters of movement/ x-y coordinates over several days 
-ggsave(p.coords, filename = paste(dir$data, "RD_Historical_coord_patterns.png"),
+ggsave(p.coords, filename = paste(getwd(), "/RD_Historical_coord_patterns.png",sep = ""),
        width = 30,
        height = 20,
        units = "cm")
