@@ -41,6 +41,7 @@ __How does Red Dot fit in the digital twin framework?__
 
 Red Dot = Real Entity
 
+![](Step1_RD_inDT_framework.png)
 <br>
 
 _Script index_
