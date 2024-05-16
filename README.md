@@ -1,6 +1,8 @@
 # Digital Twin: exploration (v1)
 
-In this repo we explore very basic concepts of a digital twin as discussed in [1]. 
+In this repo we explore very basic concepts of a digital twin as discussed in [1]. Specifically, this example will walk thru all the stages (green arrows) shown in the figure below.
+
+![](Figure1_withPermissionFromAuthors.png)
 
 Each section walks the user thru a series of steps to :
 
