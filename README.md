@@ -60,6 +60,9 @@ _Script index_
 
 Now that we know the basic parameters/ behaviour of Red Dot, we create a digital twin named Blue Dot which mimics the behaviour of Red Dot in script `2_initialise_DT.R`. As Red Dot is in a unit square and remains so across all historical data and for current day analysed, then Blue Dot does the same. The x and y coordinates of Blue Dot are also based on Red Dots behaviour.
 
+![](https://github.com/MarcelaCespedes/Digital_Twin_Explore1/blob/main/BlueDot_initialised.gif)
+
+<br>
 After the initial historical data available on Red Dot, let's assume we receive coordinates of Red Dot on an ongoing basis every hour, for 24 hours every day and this information is stored in the respective `day_X_data.csv` file. This daily operation runs for 20 days total, so we assume that each day we get access to Red Dot's daily coordinates. 
 
 See script `3_update_DT.R` for Blue Dot being updated daily. 
