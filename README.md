@@ -58,7 +58,11 @@ _Script index_
 
 ## 2. The digital twin: Blue Dot
 
-Now that we know the basic parameters/ behaviour of Red Dot, we create a digital twin named Blue Dot which mimics the behaviour of Red Dot in script `2_initialise_DT.R`. As Red Dot is in a unit square and remains so across all historical data and for current day analysed, then Blue Dot does the same. The x and y coordinates of Blue Dot are also based on Red Dots behaviour.
+Now that we know the basic parameters/ behaviour of Red Dot, we create a digital twin named Blue Dot which mimics the behaviour of Red Dot in script `2_initialise_DT.R`. As Red Dot is in a unit square and remains so across all historical data and for current day analysed, then Blue Dot follows similar pattern based on analyses of Red Dots historical data, such as the plot below.
+
+![](data RD_Historical_coord_patterns.png)
+
+The x and y coordinates of Blue Dot over time are based on Red Dots behaviour.
 
 ![](https://github.com/MarcelaCespedes/Digital_Twin_Explore1/blob/main/BlueDot_initialised.gif)
 
