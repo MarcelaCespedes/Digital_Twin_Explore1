@@ -1,8 +1,12 @@
 # Digital Twin: exploration (v1)
 
-In this repo we explore very basic concepts of a digital twin as discussed in [1]. Specifically, this example will walk thru all the stages (green arrows) shown in the figure below.
+In this repo we explore very basic concepts of a digital twin as discussed in [1]. Specifically, this example will walk thru and implement all the stages (green arrows) shown in the proposed universal digital twin framework.
+
+<br>
 
 ![](Figure1_withPermissionFromAuthors.png)
+
+<br>
 
 Each section walks the user thru a series of steps to :
 
@@ -16,7 +20,7 @@ Each section walks the user thru a series of steps to :
 
 ## 1. Background: Original system called Red Dot
 
-We observe the x and y coordinates from the original system called Red Dot within the unit square. Red Dot is the original we wish to better understand via a digital twin, so we must first know a little about Red Dot and look at its historical records.
+We observe the x and y coordinates from the original system called Red Dot within the unit square. Red Dot is the original entity we wish to better understand via a digital twin, so we must first know a little about Red Dot and look at its historical records.
 
 To get some sense on the basic parameters of the ditigal twin to be created, we first analyse historical data on Red Dot. This was collected hourly, over 24 hours, for 30 days. There is sufficient information for us to incorporate analytical (statistical and/or mathematical) models to get a sense on Red Dot's behaviour.  
 
@@ -30,6 +34,12 @@ From this we infer that Red Dot appears to move randomly every hour approximatel
 Below is an animation of Red Dot for the entire historical period (30 days)
 
 ![](https://github.com/MarcelaCespedes/Digital_Twin_Explore1/blob/main/RedDot_historial.gif)
+
+<br>
+
+__How does Red Dot fit in the digital twin framework?__
+
+Red Dot = Real Entity
 
 <br>
 
