@@ -1,6 +1,6 @@
 #####################################################################
 # Original system
-# We collect the coordinates from the red dot which moves inside a unit square
+# We collect the coordinates from the Red Dot which moves inside a unit square
 # We wish to monitor the coordinates from red dot, know this system and
 # create a digital twin... called Rlue Bot.
 
