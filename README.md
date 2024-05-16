@@ -58,9 +58,9 @@ _Script index_
 
 ## 2. The digital twin: Blue Dot
 
-Coordinates of Red Dot are collected every hour, for 24 hours every day and this information is stored in the respective `day_X_data.csv` file. This daily operation runs for 20 days total, so we assume that each day we get access to Red Dot's daily coordinates. 
-
 Now that we know the basic parameters/ behaviour of Red Dot, we create a digital twin named Blue Dot which mimics the behaviour of Red Dot in script `2_initialise_DT.R`. As Red Dot is in a unit square and remains so across all historical data and for current day analysed, then Blue Dot does the same. The x and y coordinates of Blue Dot are also based on Red Dots behaviour.
+
+After the initial historical data available on Red Dot, let's assume we receive coordinates of Red Dot on an ongoing basis every hour, for 24 hours every day and this information is stored in the respective `day_X_data.csv` file. This daily operation runs for 20 days total, so we assume that each day we get access to Red Dot's daily coordinates. 
 
 See script `3_update_DT.R` for Blue Dot being updated daily. 
 
@@ -71,9 +71,16 @@ __What is Blue Dot doing?__
 
 In a nutshell, we want Blue Dot to mimic Red Dot. If Red Dot continues to randomly explore an approximate unit square, then Blue Dot will do so too. If Red Dot gets stuck somewhere in the unit square, then with some probability, Blue Dot will do the same.
 
+Below is an animation of Blue Dot after being initialised by historial Red Dot data.
+** insert gif**
+
+
 Below is an animation of Red Dot (for a given day) and Blue Dot for a simulated day 
 
 ** insert gif**
+
+<br>
+__How does Blue Dot fit in the ditigal twin framework?__
 
 
 <br>
