@@ -87,7 +87,7 @@ __How does Blue Dot fit in the ditigal twin framework?__
 
 Blue Dot = Digital Twin
 
-![](Step1_RD_inDT_framework.png)
+![](Step2_BD_inDT_framework.png)
 
 <br>
 
