@@ -68,7 +68,7 @@ This information is summarised in `2_initialise_DT.R` and using these summaries 
 
 <br>
 
-It is important to note, that Blue Dot has some limitations. For example, Blue dot does not explore the true unit square, instead it explores and _approximate_ unit square as the range of x is between 0.000296 to 0.9981, and the range of y is between 0.000422 to 1.
+It is important to note, that Blue Dot has some limitations. For example, Blue dot does not explore the true unit square, instead it explores an _approximate_ unit square as the domain ranges are: 0.000296 <= x <= 0.9981, and 0.000422 <= y <= 1.
 
 __What is Blue Dot doing?__
 
