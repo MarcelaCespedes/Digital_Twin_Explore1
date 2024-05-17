@@ -85,6 +85,9 @@ Below is an animation of Red Dot (for a given day) and Blue Dot for a simulated 
 <br>
 __How does Blue Dot fit in the ditigal twin framework?__
 
+Blue Dot = Digital Twin
+
+![](Step1_RD_inDT_framework.png)
 
 <br>
 
