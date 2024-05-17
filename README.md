@@ -83,6 +83,7 @@ Below is an animation of Red Dot (for a given day) and Blue Dot for a simulated 
 ** insert gif**
 
 <br>
+
 __How does Blue Dot fit in the ditigal twin framework?__
 
 Blue Dot = Digital Twin
