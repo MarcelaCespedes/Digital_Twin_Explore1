@@ -58,29 +58,25 @@ _Script index_
 
 ## 2. The digital twin: Blue Dot
 
-Now that we know the basic parameters/ behaviour of Red Dot, we create a digital twin named Blue Dot which mimics the behaviour of Red Dot in script `2_initialise_DT.R`. As Red Dot is in a unit square and remains so across all historical data and for current day analysed, then Blue Dot follows similar pattern based on analyses of Red Dots historical data, such as the plot below.
+Now that we have information on Red Dot, we first need to analyse and understand the system in order to create a digital twin named Blue Dot. The objective for Blue Dot is to mimic the behaviour of Red Dot. This is done in script `2_initialise_DT.R`. Below is a plot of the coordinates of Red Dot, for historial data across 30 days. We can see that despite the randomness of the animation above, there are clusters of days in which Red Dot hovers in specific areas within the unit square. 
 
 ![](RD_Historical_coord_patterns.png)
 
-The x and y coordinates of Blue Dot over time are based on Red Dots behaviour.
+This information is summarised in `2_initialise_DT.R` and using these summaries we generate new data and create Blue Dot, animated below.
 
 ![](https://github.com/MarcelaCespedes/Digital_Twin_Explore1/blob/main/BlueDot_initialised.gif)
 
 <br>
-After the initial historical data available on Red Dot, let's assume we receive coordinates of Red Dot on an ongoing basis every hour, for 24 hours every day and this information is stored in the respective `day_X_data.csv` file. This daily operation runs for 20 days total, so we assume that each day we get access to Red Dot's daily coordinates. 
+
+It is important to note, that Blue Dot has some limitations. For example, Blue dot does not explore the true unit square, instead it explores an _approximate_ unit square as the domain ranges are: 0.000296 <= x <= 0.9981, and 0.000422 <= y <= 1.
+
+__What is Blue Dot doing?__
+
+In a nutshell, Blue Dot is programmed to mimic Red Dot. If Red Dot continues to randomly explore an approximate unit square, then Blue Dot will do so too. If Red Dot gets stuck somewhere in the unit square, then with some probability, Blue Dot will do the same. After initialising the digital twin let's assume we receive coordinates of Red Dot on an ongoing basis every hour, for 24 hours every day and this information is stored in the respective `day_X_data.csv` file. This daily operation runs for 20 days total, so we assume that each day we get access to Red Dot's daily coordinates. 
 
 See script `3_update_DT.R` for Blue Dot being updated daily. 
 
 See script `4_monitor_original_system.R` for ongoing monitoring and analyses of Red Dot.
-
-
-__What is Blue Dot doing?__
-
-In a nutshell, we want Blue Dot to mimic Red Dot. If Red Dot continues to randomly explore an approximate unit square, then Blue Dot will do so too. If Red Dot gets stuck somewhere in the unit square, then with some probability, Blue Dot will do the same.
-
-Below is an animation of Blue Dot after being initialised by historial Red Dot data.
-** insert gif**
-
 
 Below is an animation of Red Dot (for a given day) and Blue Dot for a simulated day 
 
@@ -89,6 +85,9 @@ Below is an animation of Red Dot (for a given day) and Blue Dot for a simulated 
 <br>
 __How does Blue Dot fit in the ditigal twin framework?__
 
+Blue Dot = Digital Twin
+
+![](Step2_BD_inDT_framework.png)
 
 <br>
 
